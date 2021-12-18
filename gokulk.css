@@ -1,0 +1,157 @@
+ul{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    
+}
+li{
+    list-style-type: none;
+}
+
+.container1
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            align-items: center;
+            justify-content: center;
+        }
+        .div3
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+            align-items: center;
+            justify-content: center;
+        }        
+          
+.gokimg{
+    width: 350px;
+    height: 400px;
+    border-radius: 15px 50px;
+   
+   
+}
+body
+{
+    background-color:whitesmoke ;
+}
+
+
+
+
+
+#lnkd{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px;
+    background-color: white;
+}
+#lnkd:hover
+{
+    width: 40px;
+    height: auto;
+}
+#fb{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px;
+}
+#fb:hover
+{
+    width: 40px;
+    height: auto;
+}
+#insta
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px;
+}
+#insta:hover
+{
+    width: 40px;
+    height: auto;
+}
+@media(max-width:601px)
+{
+    .container{
+        display: flex;
+flex-direction: column;
+}
+}
+.skill_area{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 100px;
+}
+.skill{
+    position: relative;
+    margin-bottom: 40px;
+}
+.skill_title{
+font-size:30px;
+margin-bottom: 10px;
+top: 50px;
+} 
+.skill_bar
+{
+    background-color: rgb(191, 136, 243);
+    width: 100%;
+    height: 40px;
+    position:absolute;
+    z-index: -1;
+    border-radius: 100px;
+}
+.skill_fill
+{background-color: blueviolet;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.Coding{
+    animation: Coding 2s;
+    width: 85%;
+}
+
+.Webdevolopment{
+    animation: Webdevolopment 2s;
+    width: 95%;
+}
+
+.Communication{
+    animation: Communication 2s;
+    width: 100%;
+}
+@keyframes Coding
+{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100;
+    }
+}
+@keyframes Webdevolopment
+{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100;
+    }
+}
+@keyframes Communication
+{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100;
+    }
+}
